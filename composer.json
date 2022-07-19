@@ -1,0 +1,24 @@
+{
+    "name": "alvar/gestion_citas_colpomed",
+    "description": "proyecto php 8, mvc, sass, mysql",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\":"./",
+            "Controllers\\": "./controllers",
+            "Model\\":"./models",
+            "Classes\\":"./classes",
+            "Alvar\\GestionCitasColpomed\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlvaroSalazar25",
+            "email": "alvaro_wtf06@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
